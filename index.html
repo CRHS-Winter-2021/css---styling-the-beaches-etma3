@@ -5,44 +5,99 @@
 			March 2020
 			Based upon: https://www.tourismpei.com/  -->
 			
+      <style>
+
+
+          #navcolor{background-color:yellow;
+          }
+
+
+          #navbar {
+            overflow: hidden;
+              background-color:green;
+              font-family: Arial;
+          }               
+
+          #navbar a {
+            float: left;
+            font-size: 16px;
+            color: blue;
+            text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          }
+
+          #dropdown {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: blue;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit; 
+            margin: 0; 
+          }
+
+
+          #dropdown {
+             float: left;
+            overflow: hidden;
+          }
+
+          #box{color:blue;
+          }
+
+          #link{width = 20
+          }
+
+          #footer{backround-color:orange;
+          }
+      </style>
 				
 		<title>My Favourite Beaches</title>
 	</head>
 
 	<body>
-		<p >
+    <div id="navcolor">
+      <div id="navbar">
 				<a href="https://www.tourismpei.com/pei-festivals-and-events" target="_blank"> Festivals and Events </a>
 				<a href="https://www.tourismpei.com/about-pei" target="_blank"> About PEI </a>
-				Planning a Trip:  <!-- make into a drop down -->
+        <div id="dropdown">
+				Planning a Trip  <!-- make into a drop down -->
 					<a href="https://www.tourismpei.com/pei-package-offers" target="_blank">Vacation Packages</a>
 					<a href="https://www.tourismpei.com/pei-accommodations" target="_blank">Where to Stay</a>
 					<a href="https://www.tourismpei.com/pei-things-to-do" target="_blank">What to do</a>
+        </div>
+      </div>
+    </div>
+  
 			
-		</p>  <!-- end of navigation bar -->
+		  <!-- end of navigation bar -->
 		
 		
-		<p>
-			My Favourite Beaches
-			
-		</p>  <!-- end of header --> 
+		<div>
+		 <h1><center>My Favourite Beaches</center></h1>
+		</div>
+		  <!-- end of header --> 
 		
-		
-		<p >
-			LINKS <br>  
+      <div id="links">
+      LINKS <br>  
 			<!-- Make Links into an unordered list -->
-			<a href="https://www.tourismpei.com/pei-festivals-and-events" target="_blank"> 10 Quirky Things You Didn’t Know About PEI </a>
-			<a href="https://www.tourismpei.com/about-pei" target="_blank">Environment</a>
-			<a href="https://www.tourismpei.com/pei-package-offers" target="_blank">Getting Here</a>
-			<a href="https://www.tourismpei.com/pei-accommodations" target="_blank">Important Travel Information</a>
-			<a href="https://www.tourismpei.com/pei-things-to-do" target="_blank">Island Webcams</a>
-			
-		</p> <!-- end of left column -->
+      <ul>
+			<li><a href="https://www.tourismpei.com/pei-festivals-and-events" target="_blank"> 10 Quirky Things You Didn’t Know About PEI </a>
+			<li><a href="https://www.tourismpei.com/about-pei" target="_blank">Environment</a>
+			<li><a href="https://www.tourismpei.com/pei-package-offers" target="_blank">Getting Here</a>
+			<li><a href="https://www.tourismpei.com/pei-accommodations" target="_blank">Important Travel Information</a>
+			<li><a href="https://www.tourismpei.com/pei-things-to-do" target="_blank">Island Webcams</a>
+			</ul>
+      </div>
+		 <!-- end of left column -->
 		
 		
-		<p >
-			<img src="Media/beach1.jpg" alt="Beautiful beach" width = "200px"> 
-			
-			ABOUT OUR BEACHES <br>
+		<div id="box">
+			<center><img src="Media/beach1.jpg" alt="Beautiful beach" height = "500px" width = "700px"></center> 
+			<br>
+			ABOUT OUR BEACHES 
 			With beaches that sing and others that stun visitors with their pristine blend of rustic solitude and splendid red sand, Prince Edward Island's sandy expanses continue to receive raves from all over the world, including a nomination as one of Canada's natural wonders.
 			<br>
 			"Walking along the beautiful white sand produces an interesting sound… akin to singing, or some would say, squeaking," the CBC wrote on its website. "It's a phenomenon that scientists still don't completely understand."
@@ -68,7 +123,7 @@
 			<br>
 			Others dream of returning. "PEI is the most beautiful, clean province we have seen, and the beaches are something us in Alberta only see in pictures," says Lori from Edmonton. Lori says she'll return for another PEI vacation soon. Such is the draw of PEI's beautiful beaches. And one thing is certain - she won't be alone.
 			
-		</p> <!-- end of center column -->
+		</div> <!-- end of center column -->
 		
 		
 		<p >
@@ -82,10 +137,12 @@
 		</p> <!-- end of right column -->
 		
 				
-		<p >
+		
+      <div id="footer">
 		   <a href="https://www.tourismpei.com/contact-us-page" target = "_blank" >Contact Us </a> 	
 		   2020 Prince Edward Island Tourism. All Rights Reserved.
-		</p> <!-- end of footer -->
+      </div>
+		 <!-- end of footer -->
 				
 	</body>
 
